@@ -1,0 +1,67 @@
+:root{
+    --the-color:#FFFFFF;
+    --bg:#FFFFE0;
+    --bgradient: linear-gradient(141deg, #FFFFE0 0%, #FFF0F5 100%);
+    --boxg: linear-gradient(160deg, #FFFFFF 20%, var(--bg) 80%);
+}
+
+.container{
+    width: 90%;
+    padding: 20px;
+    margin: 27px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+body{
+    text-align: center;
+    background: var(--bgradient);
+    align-items:center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    min-height:100vh;
+}
+h2{
+    font-family: 'Comfortaa';
+    text-align: center;
+    font-weight: bold;
+}
+h3{
+    color: #ffffff;
+}
+
+h4{
+    text-align:center;
+}
+h5{
+    text-align:center;
+}
+h6{
+    text-align:center;
+}
+.hidden{
+    color:#FFFFFF;
+}
+.light{
+    background: var(--boxg);
+    color: black;
+}
+.darkmode{
+    background: black !important;
+    color: white;
+}
+
+#btn, #submit{
+    padding:8px 12px;
+    margin: 0 auto 15px auto;
+    cursor: pointer;
+    
+}
+
+#namesubmit{
+    padding:8px 12px;
+    margin: 0 auto 15px auto;   
+}
